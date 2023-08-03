@@ -1,0 +1,42 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe | Elysium Innovations</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Elysium Innovations Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="team.html">Team</a>
+            <a href="contact.html">Contact</a>
+            <a href="subscribe.html">Subscribe</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="subscription-module">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter and get the latest updates on the future of AI and blockchain.</p>
+            <form id="subscription-form" onsubmit="event.preventDefault(); subscribe();">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <p id="formSubmissionSuccess" style="display: none;">Thank you for subscribing!</p>
+            <p id="formSubmissionError" style="display: none;">Oops! Something went wrong. Please try again.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 Elysium Innovations. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+```
