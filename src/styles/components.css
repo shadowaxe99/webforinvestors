@@ -1,0 +1,49 @@
+/* src/styles/components.css */
+
+/* Educational Intro Component */
+#educationalIntro {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* AI Interaction Component */
+#aiInteraction {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Minting Process Component */
+#mintingProcess {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* AI Marketplace Component */
+#aiMarketplace {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* User Profile Component */
+#userProfile {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* AI Persona Component */
+#aiPersona {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
