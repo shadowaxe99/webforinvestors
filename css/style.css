@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #50b3a2;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+/* Teaser Styles */
+#teaser-section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* About Styles */
+#about-section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Team Styles */
+#team-section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Contact Form Styles */
+#contact-form {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Subscription Module Styles */
+#subscription-module {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Responsive Styles */
+@media(max-width: 768px) {
+    header #branding,
+    header nav,
+    header nav li,
+    #teaser-section,
+    #about-section,
+    #team-section,
+    #contact-form,
+    #subscription-module {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
